@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/actionbar_back.xml" value="0.18" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/active_constraint_back.xml" value="0.15" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/arrow_back_ios_24.xml" value="0.2713541666666667" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/background_left.xml" value="0.1537037037037037" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/bio_icon.xml" value="0.15" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/bottom_info_back.xml" value="0.14629629629629629" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/button_back.xml" value="0.15" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/change_theme.xml" value="0.23333333333333334" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/change_theme_back.xml" value="0.225" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/constraint_bubble_right.xml" value="0.19074074074074074" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/current_back_btn.xml" value="0.15" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/current_constraint_bottom_back.xml" value="0.15" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/custom_bottom_bubble.xml" value="0.19074074074074074" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/custom_bubble.xml" value="0.19074074074074074" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/custom_edittext_back.xml" value="0.19074074074074074" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/custom_register_back.xml" value="0.19074074074074074" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/email_icon.xml" value="0.15" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/email_indicator.xml" value="0.15" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/filled_like_icon.xml" value="0.23333333333333334" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/item_dialog_back.xml" value="0.15185185185185185" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/like_icon.xml" value="0.23333333333333334" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/message_edittext_back.xml" value="0.15185185185185185" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/name_constraint_back.xml" value="0.15" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/outline_like_icon.xml" value="0.23333333333333334" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/parent_layout_back.xml" value="0.15185185185185185" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/person_icon.xml" value="0.15" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/phone_icon.xml" value="0.15" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/profile_bubble.xml" value="0.15" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/progress_back.xml" value="0.20677083333333332" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/progress_dialog_back.xml" value="0.18888888888888888" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/register_button_back.xml" value="0.19074074074074074" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/ripple_back.xml" value="0.2713541666666667" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/ripple_effect_back.xml" value="0.22962962962962963" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/save_btn.xml" value="0.2246153846153846" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/settings_icon.xml" value="0.14814814814814814" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/drawable/signup_back.xml" value="0.15462962962962962" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/activity_current_user.xml" value="0.14945652173913043" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/activity_main.xml" value="0.15081521739130435" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/activity_message.xml" value="0.16" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/activity_profileactivity.xml" value="0.10555555555555556" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/activity_setting.xml" value="0.2346014492753623" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/activity_sign_up.xml" value="0.12411347517730496" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/activity_splash_screen.xml" value="0.10925925925925926" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/change_theme.xml" value="0.25" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/chat_item_left.xml" value="0.12411347517730496" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/chat_item_right.xml" value="0.12411347517730496" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/custom_edit_photo_dialog.xml" value="0.10925925925925926" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/custom_login_dialog.xml" value="0.1" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/custom_signup_dialog.xml" value="0.12411347517730496" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/delete_message_dialog.xml" value="0.12411347517730496" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/fab_logout.xml" value="0.21" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/follower.xml" value="0.2" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/item_dialog.xml" value="0.12411347517730496" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/main_child_item.xml" value="0.18" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/progress_dialog.xml" value="0.2552083333333333" />
+        <entry key="..\:/Rana/Android/Coding/Java/PlayStore App/Chat App/Chat App/app/src/main/res/layout/update_profile.xml" value="0.15081521739130435" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

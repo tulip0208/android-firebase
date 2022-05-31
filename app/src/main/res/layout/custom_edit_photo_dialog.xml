@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/uploadPhotoID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Updating"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"/>
+    <RelativeLayout
+        android:layout_below="@+id/uploadPhotoID"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:id="@+id/progressBarID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:indeterminateTint="@color/purple_700"
+            />
+        <TextView
+            android:id="@+id/pleaseWaitID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/progressBarID"
+            android:layout_marginLeft="15dp"
+            android:text="Please Wait...."
+            android:textColor="@color/gray"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

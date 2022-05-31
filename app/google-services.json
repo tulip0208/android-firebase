@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "558921799425",
+    "firebase_url": "https://chat-app-bef58.firebaseio.com",
+    "project_id": "chat-app-bef58",
+    "storage_bucket": "chat-app-bef58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558921799425:android:bd3f3fde9b91ff214ead00",
+        "android_client_info": {
+          "package_name": "com.codecamp.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558921799425-ue840rf99pfjnbpalo5ctlhbhh3cohd2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG157OQvYqResRLfUdYndYNBUkRbCgFAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558921799425-ue840rf99pfjnbpalo5ctlhbhh3cohd2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

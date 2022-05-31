@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_700">#02043E</color>
+    <color name="teal_200">#02043E</color>
+    <color name="teal_700">#02043E</color>
+    <color name="black">#FF000000</color>
+    <color name="deep_blue">#02043E</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_gray">#A9A9A9</color>
+    <color name="gray">#808080</color>
+    <color name="green">#05ab15</color>
+    <color name="custom_register_back_color">#D4D4D4</color>
+    <color name="deep_violet_back">#664bb2</color>
+
+
+</resources>
