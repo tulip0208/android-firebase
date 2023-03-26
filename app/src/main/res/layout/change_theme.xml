@@ -28,42 +28,42 @@
             android:layout_height="25dp"
             android:background="@drawable/change_theme"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/blackTheem"
+            app:layout_constraintEnd_toStartOf="@+id/skyBlueTheme"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/blackTheem"
+            android:id="@+id/skyBlueTheme"
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:background="@drawable/change_theme"
+            android:background="@drawable/sky_blue_theme"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/redTheem"
+            app:layout_constraintEnd_toStartOf="@+id/greenTheme"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/grayTheem"
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/redTheem"
+            android:id="@+id/greenTheme"
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:background="@drawable/change_theme"
+            android:background="@drawable/green_theme"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/pinkTheem"
+            app:layout_constraintEnd_toStartOf="@+id/orangeTheme"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/blackTheem"
+            app:layout_constraintStart_toEndOf="@+id/orangeTheme"
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/pinkTheem"
+            android:id="@+id/orangeTheme"
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:background="@drawable/change_theme"
+            android:background="@drawable/orange_theme"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/redTheem"
+            app:layout_constraintStart_toEndOf="@+id/greenTheme"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 

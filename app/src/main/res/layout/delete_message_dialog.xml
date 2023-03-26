@@ -1,33 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content">
+
     <TextView
         android:id="@+id/logout_textID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/roboto"
         android:text="Remove your text message"
         android:textColor="@color/gray"
-        android:textSize="15sp"
-        android:fontFamily="@font/roboto"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"/>
+        android:textSize="15sp" />
+
     <View
         android:id="@+id/viewID"
-        android:layout_below="@+id/logout_textID"
         android:layout_width="match_parent"
         android:layout_height="1dp"
+        android:layout_below="@+id/logout_textID"
         android:layout_marginTop="8dp"
-        android:background="@color/teal_700"/>
+        android:background="@color/teal_700" />
+
     <RelativeLayout
-        android:layout_marginTop="10dp"
-        android:layout_below="@+id/viewID"
         android:layout_width="wrap_content"
-        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewID"
         android:layout_centerHorizontal="true"
-        android:layout_height="wrap_content">
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp">
 
         <TextView
             android:id="@+id/noID"
@@ -37,16 +40,17 @@
             android:text="No"
             android:textColor="@color/gray"
             android:textSize="15sp" />
+
         <TextView
             android:id="@+id/yesID"
-            android:layout_toRightOf="@+id/noID"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Yes"
             android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/noID"
             android:fontFamily="@font/roboto"
+            android:text="Yes"
             android:textColor="@color/gray"
-            android:textSize="15sp"/>
+            android:textSize="15sp" />
 
     </RelativeLayout>
 </RelativeLayout>

@@ -3,14 +3,21 @@
     <color name="purple_700">#02043E</color>
     <color name="teal_200">#02043E</color>
     <color name="teal_700">#02043E</color>
-    <color name="black">#FF000000</color>
+<!--    <color name="black">#FF000000</color>-->
     <color name="deep_blue">#02043E</color>
     <color name="white">#FFFFFFFF</color>
     <color name="dark_gray">#A9A9A9</color>
-    <color name="gray">#808080</color>
+<!--    <color name="gray">#808080</color>-->
     <color name="green">#05ab15</color>
     <color name="custom_register_back_color">#D4D4D4</color>
     <color name="deep_violet_back">#664bb2</color>
+    <color name="black">#0e0e10</color>
+    <color name="gray">#1c1d21</color>
+    <color name="text_white">#eeeeee</color>
+    <color name="text_gray">#3a393d</color>
+    <color name="color_pink">#e3229e</color>
+    <color name="color_text_title">#404040</color>
+    <color name="color_text_subtitle">#93919a</color>
 
 
 </resources>

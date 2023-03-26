@@ -1,121 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/constraintLayout"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SettingActivity">
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    tools:context=".ui.view.SettingActivity">
+
+    <ImageView
+        android:id="@+id/backIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_backspace_icon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/UPDATE_YOUR_PROFILE_TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_regular"
+        android:text="Update Your Profile"
+        android:textColor="@color/color_text_title"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/backIcon"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent">
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="@+id/backIcon" />
+
+    <FrameLayout
+        android:id="@+id/IMAGE_FRAME_LAYOUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backIcon">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/USER_IMAGE"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/person_profile" />
+
+        <ImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/IMAGE_PLUS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/ic_add_back"
+            android:elevation="10dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/boys"/>
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/teal_700"
-            android:alpha="0.8"/>
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/backButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_constraintLeft_toLeftOf="parent"
-                android:background="@drawable/current_back_btn"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
-                android:padding="10dp"
-                app:layout_constraintTop_toTopOf="parent">
-                <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintRight_toRightOf="parent"
-                    android:src="@drawable/arrow_back_ios_24"
-                    />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_constraintTop_toTopOf="@+id/backButton"
-                app:layout_constraintBottom_toBottomOf="@+id/backButton"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                android:text="Setting"
-                android:textColor="@color/white"
-                android:fontFamily="@font/nunito"
-                />
-            <EditText
-                android:id="@+id/nameEditText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:hint="Update Name"
-                android:textColorHint="#838383"
-                android:textSize="14sp"
-                android:padding="10dp"/>
-            <EditText
-                android:id="@+id/bioEditText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/nameEditText"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:hint="Update Bio"
-                android:textSize="14sp"
-                android:layout_marginTop="8dp"
-                android:fontFamily="@font/nunito"
-                android:textColorHint="#838383"
-                android:padding="10dp"/>
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/saveButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                android:padding="15dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginTop="15dp"
-                android:alpha="0.3"
-                app:layout_constraintTop_toBottomOf="@+id/bioEditText"
-                android:background="@drawable/save_btn">
-                <TextView
-                    android:id="@+id/saveText"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    android:text="Save"
-                    android:visibility="visible"
-                    android:textColor="@color/teal_700"
-                    android:fontFamily="@font/nunito"
-                    android:textSize="15sp"/>
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            android:src="@drawable/ic_add" />
     </FrameLayout>
+
+    <TextView
+        android:id="@+id/NAME_TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="Name"
+        android:textColor="@color/color_text_title"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IMAGE_FRAME_LAYOUT" />
+
+    <ImageView
+        android:id="@+id/NAME_UPDATE_ICON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ic_update"
+        app:layout_constraintBottom_toBottomOf="@+id/NAME_TEXT"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/NAME_TEXT" />
+
+    <TextView
+        android:id="@+id/NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="John Martin"
+        android:textColor="@color/color_text_subtitle"
+        android:textSize="13sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NAME_TEXT" />
+
+    <TextView
+        android:id="@+id/ABOUT_TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="About"
+        android:textColor="@color/color_text_title"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NAME" />
+
+    <ImageView
+        android:id="@+id/ABOUT_UPDATE_ICON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ic_update"
+        app:layout_constraintBottom_toBottomOf="@+id/ABOUT_TEXT"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ABOUT_TEXT" />
+
+    <TextView
+        android:id="@+id/ABOUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lato_regular"
+        android:gravity="start"
+        android:justificationMode="inter_word"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="John Martin"
+        android:textColor="@color/color_text_subtitle"
+        android:textSize="13sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ABOUT_TEXT" />
+
+    <TextView
+        android:id="@+id/BIO_TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="Bio"
+        android:textColor="@color/color_text_title"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ABOUT" />
+
+    <ImageView
+        android:id="@+id/BIO_UPDATE_ICON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ic_update"
+        app:layout_constraintBottom_toBottomOf="@+id/BIO_TEXT"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/BIO_TEXT" />
+
+    <TextView
+        android:id="@+id/BIO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="John Martin"
+        android:textColor="@color/color_text_subtitle"
+        android:textSize="13sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BIO_TEXT" />
+
+    <TextView
+        android:id="@+id/PHONE_TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="Phone"
+        android:textColor="@color/color_text_title"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BIO" />
+
+    <ImageView
+        android:id="@+id/PHONE_UPDATE_ICON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ic_update"
+        app:layout_constraintBottom_toBottomOf="@+id/PHONE_TEXT"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/PHONE_TEXT" />
+
+    <TextView
+        android:id="@+id/PHONE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="UNxxxxxxxx"
+        android:textColor="@color/color_text_subtitle"
+        android:textSize="13sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PHONE_TEXT" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,4 +18,12 @@
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">65%</item>
     </style>
+    <style name="CustomMenuItem" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/lato_regular</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">100dp</item>
+        <item name="android:minHeight">200dp</item>
+    </style>
 </resources>

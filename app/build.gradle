@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.codecamp.chatapp"
-        minSdkVersion 16
+        minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -33,7 +33,8 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
-    implementation 'com.google.firebase:firebase-firestore:22.1.2'
+    //implementation 'com.google.firebase:firebase-firestore:22.1.2'
+    implementation 'org.chromium.net:cronet-embedded:108.5359.79'
     testImplementation 'junit:junit:4+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
@@ -43,12 +44,17 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage'
     implementation 'com.github.bumptech.glide:glide:4.11.0'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
-    implementation 'com.firebaseui:firebase-ui-database:6.3.0'
+    //implementation 'com.firebaseui:firebase-ui-database:6.3.0'
     implementation 'com.google.firebase:firebase-messaging'
     implementation 'com.squareup.retrofit2:retrofit:2.1.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
     implementation 'com.codesgood:justifiedtextview:1.1.0'
     implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.github.duanhong169:drawabletoolbox:1.0.7'
+    //firebase-ml
+    implementation 'com.google.firebase:firebase-ml-natural-language:22.0.1'
+    implementation 'com.google.firebase:firebase-analytics:21.2.0'
+    implementation 'com.google.mlkit:translate:17.0.1'
 
 }
 apply plugin: 'com.google.gms.google-services'
